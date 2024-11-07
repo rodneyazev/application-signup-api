@@ -2,7 +2,7 @@ Just a backup.
 
 Result of a lot of dedication.
 
-If you desire give a try, use the following PostgreSQL Docker: https://github.com/rodneyazev/docker-examples/tree/main/postgres
+If you wanna give a try, use the following PostgreSQL Docker: https://github.com/rodneyazev/docker-examples/tree/main/postgres
 
 Spring: Web, DevTools, Lombok, Data JPA, Security, Oauth Server, Configuration Processor, Validation, PostgreSQL, Exception Handling, Swagger, TestNG, REST Assured, Insomnia.
 
