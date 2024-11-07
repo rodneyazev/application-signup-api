@@ -2,6 +2,8 @@ Just a backup.
 
 Result of a lot of dedication.
 
+A repository of authentication and authorization API models in case I ever have to deal with this again, so I don't waste too much time when I need to.
+
 If you wanna give a try, use the following PostgreSQL Docker: https://github.com/rodneyazev/docker-examples/tree/main/postgres
 
 Spring: Web, DevTools, Lombok, Data JPA, Security, Oauth Server, Configuration Processor, Validation, PostgreSQL, Exception Handling, Swagger, TestNG, REST Assured, Insomnia.
