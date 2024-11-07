@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="17" passed="17" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-07T01:11:24 BRT" name="Default suite" finished-at="2024-11-07T01:11:26 BRT" duration-ms="1864">
+    <groups>
+    </groups>
+    <test started-at="2024-11-07T01:11:24 BRT" name="Default test" finished-at="2024-11-07T01:11:26 BRT" duration-ms="1864">
+      <class name="com.application.signup.api.ApplicationSignupApiApplicationTests">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.application.signup.api.ApplicationSignupApiApplicationTests@273e7444]" started-at="2024-11-07T01:11:24 BRT" name="beforeTest" finished-at="2024-11-07T01:11:24 BRT" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="signupCreateUserFailureDueEmptyEmail()[pri:0, instance:com.application.signup.api.ApplicationSignupApiApplicationTests@273e7444]" started-at="2024-11-07T01:11:24 BRT" name="signupCreateUserFailureDueEmptyEmail" finished-at="2024-11-07T01:11:25 BRT" duration-ms="728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupCreateUserFailureDueEmptyEmail -->
+        <test-method signature="signupCreateUserFailureDueEmptyPassword()[pri:0, instance:com.application.signup.api.ApplicationSignupApiApplicationTests@273e7444]" started-at="2024-11-07T01:11:25 BRT" name="signupCreateUserFailureDueEmptyPassword" finished-at="2024-11-07T01:11:25 BRT" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupCreateUserFailureDueEmptyPassword -->
+        <test-method signature="signupCreateUserFailureDueEmptyUsername()[pri:0, instance:com.application.signup.api.ApplicationSignupApiApplicationTests@273e7444]" started-at="2024-11-07T01:11:25 BRT" name="signupCreateUserFailureDueEmptyUsername" finished-at="2024-11-07T01:11:25 BRT" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupCreateUserFailureDueEmptyUsername -->
+        <test-method signature="signupCreateUserFailureDueNotWellFormedEmail()[pri:0, instance:com.application.signup.api.ApplicationSignupApiApplicationTests@273e7444]" started-at="2024-11-07T01:11:25 BRT" name="signupCreateUserFailureDueNotWellFormedEmail" finished-at="2024-11-07T01:11:25 BRT" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupCreateUserFailureDueNotWellFormedEmail -->
+        <test-method signature="signupCreateUserFailureDueWrongPasswordCharactersSize()[pri:0, instance:com.application.signup.api.ApplicationSignupApiApplicationTests@273e7444]" started-at="2024-11-07T01:11:25 BRT" name="signupCreateUserFailureDueWrongPasswordCharactersSize" finished-at="2024-11-07T01:11:25 BRT" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupCreateUserFailureDueWrongPasswordCharactersSize -->
+        <test-method signature="signupCreateUserFailureDueWrongUsernameCharactersSize()[pri:0, instance:com.application.signup.api.ApplicationSignupApiApplicationTests@273e7444]" started-at="2024-11-07T01:11:25 BRT" name="signupCreateUserFailureDueWrongUsernameCharactersSize" finished-at="2024-11-07T01:11:25 BRT" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupCreateUserFailureDueWrongUsernameCharactersSize -->
+        <test-method signature="signupCreateUserFailurePasswordDueMissingLowercaseCharacter()[pri:0, instance:com.application.signup.api.ApplicationSignupApiApplicationTests@273e7444]" started-at="2024-11-07T01:11:25 BRT" name="signupCreateUserFailurePasswordDueMissingLowercaseCharacter" finished-at="2024-11-07T01:11:25 BRT" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupCreateUserFailurePasswordDueMissingLowercaseCharacter -->
+        <test-method signature="signupCreateUserFailurePasswordDueMissingNumericCharacter()[pri:0, instance:com.application.signup.api.ApplicationSignupApiApplicationTests@273e7444]" started-at="2024-11-07T01:11:25 BRT" name="signupCreateUserFailurePasswordDueMissingNumericCharacter" finished-at="2024-11-07T01:11:25 BRT" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupCreateUserFailurePasswordDueMissingNumericCharacter -->
+        <test-method signature="signupCreateUserFailurePasswordDueMissingSpecialCharacter()[pri:0, instance:com.application.signup.api.ApplicationSignupApiApplicationTests@273e7444]" started-at="2024-11-07T01:11:25 BRT" name="signupCreateUserFailurePasswordDueMissingSpecialCharacter" finished-at="2024-11-07T01:11:25 BRT" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupCreateUserFailurePasswordDueMissingSpecialCharacter -->
+        <test-method signature="signupCreateUserFailurePasswordDueMissingUppercaseCharacter()[pri:0, instance:com.application.signup.api.ApplicationSignupApiApplicationTests@273e7444]" started-at="2024-11-07T01:11:25 BRT" name="signupCreateUserFailurePasswordDueMissingUppercaseCharacter" finished-at="2024-11-07T01:11:25 BRT" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupCreateUserFailurePasswordDueMissingUppercaseCharacter -->
+        <test-method signature="signupCreateUserSuccessDueFilledUsernameEmailPassword()[pri:1, instance:com.application.signup.api.ApplicationSignupApiApplicationTests@273e7444]" started-at="2024-11-07T01:11:25 BRT" name="signupCreateUserSuccessDueFilledUsernameEmailPassword" finished-at="2024-11-07T01:11:25 BRT" duration-ms="580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupCreateUserSuccessDueFilledUsernameEmailPassword -->
+        <test-method signature="signupCreateUserFailedDueUserDuplicated()[pri:2, instance:com.application.signup.api.ApplicationSignupApiApplicationTests@273e7444]" started-at="2024-11-07T01:11:25 BRT" name="signupCreateUserFailedDueUserDuplicated" finished-at="2024-11-07T01:11:25 BRT" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupCreateUserFailedDueUserDuplicated -->
+        <test-method signature="signupCreateUserFailedDueEmailDuplicated()[pri:3, instance:com.application.signup.api.ApplicationSignupApiApplicationTests@273e7444]" started-at="2024-11-07T01:11:25 BRT" name="signupCreateUserFailedDueEmailDuplicated" finished-at="2024-11-07T01:11:25 BRT" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupCreateUserFailedDueEmailDuplicated -->
+        <test-method signature="signupCreateUserFailedDueUsernameAlreadyInUse()[pri:4, instance:com.application.signup.api.ApplicationSignupApiApplicationTests@273e7444]" started-at="2024-11-07T01:11:25 BRT" name="signupCreateUserFailedDueUsernameAlreadyInUse" finished-at="2024-11-07T01:11:26 BRT" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupCreateUserFailedDueUsernameAlreadyInUse -->
+        <test-method signature="signupCreateUserFailedDueEmailAlreadyInUse()[pri:5, instance:com.application.signup.api.ApplicationSignupApiApplicationTests@273e7444]" started-at="2024-11-07T01:11:26 BRT" name="signupCreateUserFailedDueEmailAlreadyInUse" finished-at="2024-11-07T01:11:26 BRT" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupCreateUserFailedDueEmailAlreadyInUse -->
+        <test-method signature="signupFindAllUsers()[pri:6, instance:com.application.signup.api.ApplicationSignupApiApplicationTests@273e7444]" started-at="2024-11-07T01:11:26 BRT" name="signupFindAllUsers" finished-at="2024-11-07T01:11:26 BRT" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupFindAllUsers -->
+        <test-method signature="signupFindUserById()[pri:7, instance:com.application.signup.api.ApplicationSignupApiApplicationTests@273e7444]" started-at="2024-11-07T01:11:26 BRT" name="signupFindUserById" finished-at="2024-11-07T01:11:26 BRT" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupFindUserById -->
+        <test-method is-config="true" signature="signupDeleteUserSuccess()[pri:0, instance:com.application.signup.api.ApplicationSignupApiApplicationTests@273e7444]" started-at="2024-11-07T01:11:26 BRT" name="signupDeleteUserSuccess" finished-at="2024-11-07T01:11:26 BRT" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupDeleteUserSuccess -->
+      </class> <!-- com.application.signup.api.ApplicationSignupApiApplicationTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
